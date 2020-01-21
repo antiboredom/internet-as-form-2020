@@ -1,0 +1,88 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  /* background-image: linear-gradient(magenta, blue); */
+  /* color: #fff; */
+  font-size: 24px;
+}
+
+a {
+  background-color: red;
+  color: #fff;
+}
+
+.bg {
+  min-height: 100vh;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  /* background-color: blue; */
+}
+
+.header {
+  font-size: 40px;
+  position: absolute;
+  padding: 10px;
+}
+
+.header-bottom {
+  right: 0;
+  bottom: 0;
+  text-align: right;
+}
+
+h1 {
+  font-size: 5vw;
+  margin: 0;
+  padding: 0;
+  /* color: #fff; */
+}
+
+h1 span {
+  /* background-image: linear-gradient(90deg, red, transparent); */
+}
+
+.header-bottom h1 span {
+  /* background-image: linear-gradient(-90deg, red, transparent); */
+}
+
+h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 80px;
+}
+
+h4 span {
+  background-color: yellow;
+  background-image: linear-gradient(pink, yellow);
+  /* color: blue; */
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+  /* font-size: 20px; */
+}
+
+#cursor {
+  max-width: 300px;
+  margin: auto;
+  /* position: absolute; */
+  /* bottom: -20px; */
+}
+
+#cursor video {
+  width: 100%;
+  /* animation: rotator 10s; */
+  /* animation: 2s linear 0s infinite alternate rotator; */
+}
+
+@keyframes rotator {
+  0% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(15deg);
+  }
+}
