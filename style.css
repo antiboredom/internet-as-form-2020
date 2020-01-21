@@ -8,8 +8,8 @@ body {
 }
 
 a {
-  background-color: red;
-  color: #fff;
+  /* background-color: red; */
+  color: black;
 }
 
 .bg {
@@ -30,6 +30,10 @@ a {
   right: 0;
   bottom: 0;
   text-align: right;
+}
+
+.agenda {
+  /* font-size: 1.2em;; */
 }
 
 h1 {
@@ -62,6 +66,7 @@ h4 span {
 
 p {
   margin: 0;
+  margin-bottom: 5px;
   /* font-size: 20px; */
 }
 
