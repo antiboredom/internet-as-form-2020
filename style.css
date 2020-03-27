@@ -84,6 +84,11 @@ p {
   /* animation: 2s linear 0s infinite alternate rotator; */
 }
 
+.x {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+
 @keyframes rotator {
   0% {
     transform: rotate(-5deg);
